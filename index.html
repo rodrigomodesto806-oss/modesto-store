@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
+    <div class="navbar show-menu">
         <div class="header-inner-content">
             <h1 class="logo">Modesto <span>Store</span></h1>
             <nav>
@@ -20,8 +20,8 @@
                 </ul>
             </nav>
             <div class="nav-icon-container">
-                <img src="bag-shopping-solid.png">
-                <img src="bars-solid.png" class="menu-button">
+                <img src="imagens/bag-shopping-solid.png">
+                <img src="imagens/bars-solid.png" class="menu-button">
             </div>
         </div>
     </div>
@@ -32,12 +32,99 @@
                 <div class="header-bottom-side-left">
                     <h2>De Um Novo Estilo ao Seu Trabalho!</h2>
                     <p>O sucesso nem sempre tem haver com grandeza. tem haver com consistente supera o sucesso. A grandeza virá</p>
-                    <button>Ver Agora &#8594</button>
+                    <button>Ver Agora &#8594;</button>
                 </div>
                 <div class="header-bottom-side-right"></div>
-                    <img src="fonex15.jpeg" alt="">
+                    <img src="imagens/fonex15.jpeg" alt="">
             </div>
         </div>
     </header>
+
+    <main>
+        <div class="gray-background">
+            <div class="page-inner-content">
+                <div class="cols cols-3">
+                    <img src="imagens/foneoferta1.jpeg" alt="">
+                    <img src="imagens/foneoferta2.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="page-inner-content">
+                <h3 class="section-title">Produtos Selecionados</h3>
+                <div class="subtitulo-underline"></div>
+                <div class="cols cols-4">
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                </div>
+
+                 <div class="page-inner-content">
+                <h3 class="section-title">Produtos Selecionados</h3>
+                <div class="subtitulo-underline"></div>
+                <div class="cols cols-4">
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                    <div class="product">
+                        <img src="imagens/relogio.jpeg" alt="">
+                        <p class="product-name">Relogio Smartwatch</p>
+                        <p class="rate">&#9733; &#9733; &#9733; &#9733; &#9734;</p>
+                        <p class="product-price">R$55</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="page-inner-content"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const navbar = document.querySelector(".navbar");
+        const menuButton = document.querySelector(".menu-button");
+
+        menuButton.addEventListener("click", () => {
+            navbar.classList.toggle("show-menu");
+        });
+    </script>
 </body>
 </html>
